@@ -1,2 +1,2 @@
 "# chip-edwards-website" 
-This is a test to see if I can push
+Merged Bootstrap3 and Main branches
