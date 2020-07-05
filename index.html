@@ -1,59 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chip-Edwards</title>
 
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
-    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet" /> 
-    <link  href="https://fonts.googleapis.com/css?family=Nunito:400,700|Varela+Round&amp;subset=latin,latin-ext" />
-    <link href="overide.css" rel="stylesheet" />
-<!--Photo by Victor Freitas from Pexels
-https://www.pexels.com/photo/person-s-left-hand-772662/
--->
+    <!-- <link href="bootstrap/css/bootstrap.css" rel="stylesheet" /> -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700|Varela+Round&amp;subset=latin,latin-ext" />
+    <link href="style.css" rel="stylesheet" />
 
-
+    <!-- <link href="overide.css" rel="stylesheet" /> -->
 </head>
-<body >
-    <nav class="navbar">
-        <div class="navbar-inner">
-            <a class="brand" href="/">Chip-Edwards Home</a>
-            <ul class="nav">
-                <li><a href="#">Background</a></li>
-                <li><a href="#">Musings</a></li>
-                <li><a href="#">Projects</a></li>
-            </ul>
+
+<body>
+    <div id="page">
+        <header class="container">
+            <div id="menu" class="navbar navbar-default navbar-fixed-top">
+                <div class="navbar-header">
+                    <button class="btn btn-success btn-xs navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-collapse">
+                        <span class="glyphicon glyphicon-chevron-down"></span></button>
+
+
+                    <a class="navbar-brand" class="text-primary"><strong class="mdFontBlack">Chip-Edwards</strong></a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li class="nav"><a href="#">Home</a></li>
+                        <li class="nav"><a href="#work">Work</a></li>
+                        <li class="nav"><a href="#musings">Musings</a></li>
+                        <li class="nav"><a href="test.html">Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div class="row titleImage img-responsive">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <img src="bootstrap/img/thomas-galler-8UDJ4sflous-unsplash.jpg" class="titleImage img-responsive"
+                    alt="Beautiful Valley">
+                <span class="imgCredit"> Photo by <a
+                        href="https://unsplash.com/@t_galler?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Thomas
+                        Galler</a> on
+                    <a href="https://unsplash.com/">Unsplash</a>
+                </span>
+            </div>
         </div>
-    </nav>
 
-<img class="titleImage" src="bootstrap/img/thomas-galler-8UDJ4sflous-unsplash.jpg"  alt="Reaching Out">
-<span class="imgCredit"> Photo by <a href="https://unsplash.com/@t_galler?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Thomas Galler</a> on <a href="/s/photos/panoramic?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
-    <div class="container-fluid text-center ltFont">
-    
-        
-  
-        <h2> CHIP EDWARDS </h2>
-        
-           <p class="greyText mdFont" style="font-size: medium;"><strong> IT Manager & Jr. Scientist</strong></p>
-       
-            <p > An image of self should go here</p>
-    
-        <h2 > Work </h2>
-        <p > Some Statement of what I am currently doing </p>
+        <section id="body" class="container-fluid">
 
-    <h4 > Key Cpompentencies </h4>   
-        <P > List key compentencies here </P>
-        <p> Building and managing teams * Selecting and managing Managed Service Providers *Implementing IT controls * Implementing ITIL framework </p>
-    
 
-    <h2> Aspirations </h2>
-    <p>Do work that makes a difference in the future of the world</p>
+            <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="text-center">
+                    <h2> CHIP EDWARDS </h2>
 
-    <p> Put an inline list here for "Work - Musings - Background</p>
+                    <p class="greyText subHead">IT Manager - Technologist - Aspiring Innovator</p>
 
-    <h2> Musings </h2>
-        <p> How should you be thinking about your career stratigy when you are over 50</p>
+                    <br><br>
+
+                </div>
+            </div>
+
+
+
+            <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div
+                    class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-2 col-xs-offset-1">
+
+                    <blockquote>
+                        <p>
+                            "It is rarely a wast of time to pursue &nbsp;something you are drawn to..."
+                        <footer>
+                            Emilie Wapnick
+                        </footer>
+                        </p>
+                    </blockquote>
+                </div>
+
+                <div
+                    class="col-lg-2 col-lg-offset-2 col-md-offset-2 col-md-offset-2 col-sm-2 col-sm-offset-2 col-xs-2 col-xs-offset-2 text-center">
+                    <img src="bootstrap/img/chip.jpg" class="img-circle img-responsive center-block">
+                </div>
+
+                <div
+                    class="col-lg-2 col-lg-offset-2 col-md-offset-2 col-md-offset-2 col-sm-2 col-sm-offset-2 col-xs-2 col-xs-offset-2">
+
+                    <blockquote class="blockquote-reverse">
+                        <p>
+                            "Success fuels passion more than &nbsp;passion fuels success."
+                        <footer>
+                            Dilbert creator Scott Adams
+                        </footer>
+                        </p>
+                    </blockquote>
+
+                </div>
+            </div>
+
+            <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="text-center color:#222">
+                    <h2 id="work"> Work </h2>
+
+                    <div class="col-lg-6 col-lg-offset-3 text-left">
+                        <p> I currently Manage IT Production Support for a medium-sized Microsoft Dynamics AX 2012 R3
+                            implementation of ~1100 AX users with interfaces to web portals serving
+                            over 80,000 customers, 1500 service contractors, and 15,000 sales partners.
+                            I also manage support for a smaller Dynamics 365 F&O implementation.
+                        </p>
+
+                        <p> On a normal day, I work with Managed Service Providers for Application and Infrastructure
+                            support; both onshore as well as offshore, to coordinate support for
+                            incidents, escalate issues, and coordinate code deployments.
+                            Part of my role is to also implement and manage IT controls and approve elevated access
+                            requests. Since my team also
+                            manages application access requests I manage
+                            and oversee the Service Requests for access and often need to assist in ensuring the proper
+                            approvals are acquired, as also occasionally providing the access.
+                            <br>
+                            Team building is critical to everything I do as I rely on a geographically diverse team from
+                            several different
+                            countries to ensure that application and infrastructure support are operating at peak
+                            efficiency.
+                        </p>
+
+                        <p> I draw daily upon my experiences gained from over 20 years IT experience that range from
+                            startups to global It organizations.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center color:#222">
+                <br><br>
+                <h4 id="key-compentencies"> Key Compentencies </h4>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <P> List key compentencies here </P>
+                        <p> Team Building * Managing & Selecting Managed Service Providers * Implementing
+                            IT controls * Implementing ITIL * Process Improvement</p>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+
+            <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center color:#222">
+                <h4 id="aspirations" class="text-center color:#222"> Aspirations </h4>
+               
+                <div Class="row col-lg-2 col-lg-offset-5 col-md-2 col-md-offset-5 col-sm-2 col-sm-offset-5 
+                            col-xs-2 col-xs-offset-5 text-left color:#222">
+                    
+                    <ul style="list-style-type:disc">
+                        <li>Do work that makes a difference in the future of the world.</li>
+                        <li>Leave the world a better place for all of our children.</li>
+                        <li>Contribute a sense of community to those I work with.</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                <br><br>
+                <h2 id="musings"> Musings </h2>
+                <p class="greyText subHead"> How should you be thinking about your career stratigy when you are over 50</p>
+                <br><br>
+
+
+                    <div class="col-lg-offset-4 col-md-offset-4 col-sm-offset-4 col-xs-offset-4 ">
+                        
+
+                        <p> "It is rarely a wast of time to pursue something you are drawn to, even if you end up
+                            quitting."
+                            https://youtu.be/QJORi5VO1F8
+                            - Emilie Wapnick
+
+                            Review again and call out
+                            - Idea Synthesis and what it brings to the table.
+                            - Rapid Learning
+                            - Adaptibility
+                            This is an awesome talk about What a technologist (multipotentialites) should be.
+                        </p>
+                    </div>                
+            </div>
+
+            <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center color:#222">
+
+                <p>Some Key thoughts from Terri Trespicio
+                    - Passion is not a plan, it's a feeling. And feelings change. You can be passionate about a
+                    person, or a job one day, and then not
+                    passionate the next.
+                    We know this and continue to use passion as a yardstick to judge everything by, instead of
+                    seeing passion for what it really is: the fire that ignites when you start rubbing sticks
+                    together.
+
+                    - This idea that everything you're supposed to do should fit into a passion verticle is
+                    unrealistic.
+
+                    Success fuels passion more than passion fuels success. - Dilbert creator Scott Adams
+
+                </p>
+
+                <p> Ben Vandgrift -
+                    Specialization is great for insects, but it is not the normal state for people.
+                    Polymathy - A relatively small number of people have has a disporportunately large effect on our
+                    world.
+                </p>
+
+                <p>
+                    Take away from Ben Vandgrift:
+
+                    Dedication and curiosity are not mutually exclusive. You will reap maximum rewards when you are
+                    dedicated to curiosity itself
+
+                    If you want to go for the maximum and not just the minimum be driven by curiosity and not
+                    necessity.
+
+                    The most important skill as a technologist it to - Learn to learn new things!
+                    From the directed learner who uses what they already know as a stepping stone to what the next
+                    learning opportunity
+                    to the opportunistic learner who learns by necessity to solve problems and every gradient between,
+                    we need to keep on keeping on
+                    learning new things.
+
+                    It is not the smartest person that solves problems faster. It is the person who has more information
+                    or knows where to find it.
+                    It is the person who has more places from which to draw inspiration.
+                    It is the person who has more practice learning.
+                    To solve a problem when you are stuck, you need to come at it from multiple directions. If you can
+                    do that then as an individual
+                    you can problems that normally take teams of specialized people to solve.
+
+                    Learn the skills not the academic disciplines. Forge the tools without limiting your thinking. Avoid
+                    narrow mindsets and limited perspectives.
+                    Solutions should not be confined to one discipline.
+
+                </p>
+
+                <p>"I have been impressed with the urgengy of doing.
+                    Knowing is not enough; we must apply.
+                    Being willing is not enough; we must do."
+                    --Leonardo da Vinci
+                </p>
+            </div>
+
+
+
+
+        </section>
+
+        <footer class="container">
+            <p>Text placeholders courtesy of <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. </a>.
+            </p>
+
+        </footer>
+
     </div>
-  </body>
+    <script src="bootstrap/js/jquery-2.0.3.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
 </html>
