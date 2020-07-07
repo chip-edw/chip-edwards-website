@@ -3,6 +3,10 @@
         font-size: .75rem;
     }
 
+    li {
+        font-size: .75rem;
+    }
+
     .subHead {
         font-size: 1rem;
         font-weight: 700;
@@ -33,6 +37,10 @@
 
 @media (min-width: 750px) {
     p {
+        font-size: 1rem;
+    }
+
+    li {
         font-size: 1rem;
     }
 
@@ -68,6 +76,10 @@
         font-size: 1.25rem;
     }
 
+    li {
+        font-size: 1.25rem;
+    }
+
     .subHead {
         font-size: 1.5rem;
         font-weight: 700;
@@ -97,6 +109,10 @@
 
 @media (min-width: 1200px) {
     P {
+        font-size: 1.5rem;
+    }
+
+    li {
         font-size: 1.5rem;
     }
     
