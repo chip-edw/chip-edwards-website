@@ -38,42 +38,6 @@
         font-weight: 350;
         color: #697077;
     }
-
-    .title1 h4 {
-        display: inline-block; 
-        font-size: 1.75rem;
-        color: #1b1a1ac7;
-    }
-
-    .jTitle {
-        color: #1b1a1ac7;
-        font-size: 1.25rem;
-        font-weight: 500;
-    }
-
-    .jDate {
-        font-weight: 350;
-        color: #697077;
-        font-size: 1rem;
-    }
-
-    .jLocation {
-        font-weight: 350;
-        color: #697077;
-        font-size: .75rem;
-    }
-
-    p.jDescript-md {
-        font-weight: 500;
-        color: #1b1a1ac7;
-        font-size: 1rem;        
-    }
-
-    p.jDescript-normal {
-        font-weight: 450;
-        color: #1b1a1ac7;
-        font-size: 1.25rem;        
-    }
     
 }
 
@@ -117,42 +81,6 @@
         font-weight: 350;
         color: #697077;
     }
-
-    .title1 h4 {
-        display: inline-block; 
-        font-size: 2rem;
-        color: #1b1a1ac7;
-    }
-
-    .jTitle {
-        color: #1b1a1ac7;
-        font-size: 1.5rem;
-        font-weight: 500;
-    }
-
-    .jDate {
-        font-weight: 350;
-        color: #697077;
-        font-size: 1.25rem;
-    }
-
-    .jLocation {
-        font-weight: 350;
-        color: #697077;
-        font-size: 1rem;
-    }
-
-    p.jDescript-md {
-        font-weight: 500;
-        color: #1b1a1ac7;
-        font-size: 1.25rem;        
-    }
-
-    p.jDescript-normal {
-        font-weight: 450;
-        color: #1b1a1ac7;
-        font-size: 1.5rem;        
-    }
 }
 
 @media (min-width: 992px) {
@@ -194,43 +122,6 @@
         font-size: 2rem;
         font-weight: 350;
         color: #697077;
-    }
-
-    
-    .title1 h4 {
-        display: inline-block; 
-        font-size: 2.25rem;
-        color: #1b1a1ac7;
-    }
-
-    .jTitle {
-        color: #1b1a1ac7;
-        font-size: 1.75rem;
-        font-weight: 500;
-    }
-
-    .jDate {
-        font-weight: 350;
-        color: #697077;
-        font-size: 1.5rem;
-    }
-
-    .jLocation {
-        font-weight: 350;
-        color: #697077;
-        font-size: 1.25rem;
-    }
-
-    p.jDescript-md {
-        font-weight: 500;
-        color: #1b1a1ac7;
-        font-size: 1.5rem;        
-    }
-
-    p.jDescript-normal {
-        font-weight: 450;
-        color: #1b1a1ac7;
-        font-size: 1.75rem;        
     }
 
 
@@ -316,15 +207,16 @@
     }
 
     p.jDescript-md {
-        font-weight: 500;
+        font-weight: 350;
         color: #1b1a1ac7;
-        font-size: 1.75rem;        
+        font-size: 1.5rem;        
     }
 
-    p.jDescript-normal {
-        font-weight: 450;
+    .jDescript-normal {
+        clear: inherit;
         color: #1b1a1ac7;
-        font-size: 2rem;        
+        font-size: 3rem;
+        font-weight: 900;
     }
 
 }
