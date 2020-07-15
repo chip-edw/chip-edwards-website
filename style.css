@@ -1,4 +1,4 @@
-@media (min-width: 490px) {
+@media (min-width: 400px) {
     P {
         font-size: .75rem;
     }
@@ -72,7 +72,7 @@
     p.jDescript-normal {
         font-weight: 450;
         color: #1b1a1ac7;
-        font-size: 1.25rem;        
+        font-size: 1rem;        
     }
     
 }
@@ -151,7 +151,7 @@
     p.jDescript-normal {
         font-weight: 450;
         color: #1b1a1ac7;
-        font-size: 1.5rem;        
+        font-size: 1.25rem;        
     }
 }
 
@@ -230,7 +230,7 @@
     p.jDescript-normal {
         font-weight: 450;
         color: #1b1a1ac7;
-        font-size: 1.75rem;        
+        font-size: 1.5rem;        
     }
 
 
@@ -324,7 +324,7 @@
     p.jDescript-normal {
         font-weight: 450;
         color: #1b1a1ac7;
-        font-size: 2rem;        
+        font-size: 1.75rem;        
     }
 
 }
