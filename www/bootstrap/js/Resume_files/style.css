@@ -1,0 +1,276 @@
+@media (min-width: 490px) {
+    P {
+        font-size: .75rem;
+    }
+
+    li {
+        font-size: .75rem;
+    }
+
+    .subHead {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+
+    .imgCredit {
+        font-size: .5rem; 
+        text-decoration: none;
+        color: #9b9595c7;
+        font-style: italic;
+    }
+   
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    h2::before,
+    h2::after {
+        display: inline-block;
+        content: "";
+        border-top: .1rem solid black;
+        width: 4rem;
+        margin: 0 .1rem;
+        transform: translateY(-.7rem);
+    }
+
+    #experience {
+        font-size: 1.5rem;
+        font-weight: 350;
+        color: #697077;
+    }
+    
+}
+
+@media (min-width: 750px) {
+    p {
+        font-size: 1rem;
+    }
+
+    li {
+        font-size: 1rem;
+    }
+
+    .subHead {
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+
+    .imgCredit {
+        font-size: .75rem; 
+        text-decoration: none;
+        color: #9b9595c7;
+        font-style: italic;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+        font-weight: 600;
+    }
+    h2::before,
+    h2::after {
+        display: inline-block;
+        content: "";
+        border-top: .1rem solid black;
+        width: 4rem;
+        margin: 0 .1rem;
+        transform: translateY(-.7rem);
+    }
+
+    #experience {
+        font-size: 1.75rem;
+        font-weight: 350;
+        color: #697077;
+    }
+}
+
+@media (min-width: 992px) {
+    p {
+        font-size: 1.25rem;
+    }
+
+    li {
+        font-size: 1.25rem;
+    }
+
+    .subHead {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    
+    .imgCredit {
+        font-size: .75rem; 
+        text-decoration: none;
+        color: #9b9595c7;
+        font-style: italic;
+    }
+
+    h2 {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    h2::before,
+    h2::after {
+        display: inline-block;
+        content: "";
+        border-top: .1rem solid black;
+        width: 4rem;
+        margin: 0 .1rem;
+        transform: translateY(-.7rem);
+    }
+
+    #experience {
+        font-size: 2rem;
+        font-weight: 350;
+        color: #697077;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+    P {
+        font-size: 1.5rem;
+    }
+
+    li {
+        font-size: 1.5rem;
+    }
+    
+    .subHead {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .imgCredit {
+        font-size: 1rem; 
+        text-decoration: none;
+        color: #9b9595c7;
+        font-style: italic;
+    }
+
+    h2 {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    h2::before,
+    h2::after {
+        display: inline-block;
+        content: "";
+        border-top: .1rem solid black;
+        width: 4rem;
+        margin: 0 .1rem;
+        transform: translateY(-.7rem);
+    }
+
+    h3 {
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    h3::before,
+    h3::after {
+        display: inline-block;
+        content: "";
+        border-top: .1rem solid black;
+        width: 3rem;
+        margin: 0 .5rem;
+        transform: translateY(-.75rem);
+    }
+
+    #experience {
+        font-size: 3rem;
+        font-weight: 350;
+        color: #697077;
+    }
+
+    .title1 h4 {
+        display: inline-block; 
+        font-size: 2.5rem;
+        color: #1b1a1ac7;
+    }
+
+    .jTitle {
+        color: #1b1a1ac7;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .jDate {
+        font-weight: 350;
+        color: #697077;
+        font-size: 1.75rem;
+    }
+
+    .jLocation {
+        font-weight: 350;
+        color: #697077;
+        font-size: 1.5rem;
+    }
+
+    p.jDescript-md {
+        font-weight: 350;
+        color: #1b1a1ac7;
+        font-size: 1.5rem;        
+    }
+
+    .jDescript-normal {
+        clear: inherit;
+        color: #1b1a1ac7;
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+}
+
+
+
+
+
+
+
+.titleImage {
+    background-size: 100% 50%;
+    background-size: cover;  
+    overflow: hidden;
+    width: auto;    
+}
+
+.row.x-bottom-padding{
+    margin-bottom: 20px;
+ }
+
+ .row.x-top-padding{
+    margin-top: 20px;
+ }
+
+ .row.xx-bottom-padding{
+    margin-bottom: 40px;
+ }
+
+ .row.xx-top-padding{
+    margin-top: 40px;
+ }
+
+ body {
+ padding-top: 50px; 
+   background-color: #fff;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: lighter; color:  #222222    
+}
+
+#work {
+   padding-top: 50px;
+}
+
+#musings {
+    padding-top: 50px;
+}
+
+.greyText {
+    color: #777777c7;
+    }
+
+
+
+
+
+
